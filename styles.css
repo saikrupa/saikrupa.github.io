@@ -219,19 +219,19 @@ h3 {
 
 h1 {
   max-width: 11ch;
-  font-size: clamp(3rem, 7vw, 6rem);
-  line-height: 0.96;
+  font-size: clamp(2.35rem, 5.1vw, 4.4rem);
+  line-height: 1;
 }
 
 h2 {
   max-width: 15ch;
-  font-size: clamp(2rem, 4vw, 3.8rem);
-  line-height: 1.02;
+  font-size: clamp(1.65rem, 3vw, 2.7rem);
+  line-height: 1.08;
 }
 
 h3 {
-  font-size: 1.5rem;
-  line-height: 1.1;
+  font-size: 1.28rem;
+  line-height: 1.18;
 }
 
 .hero-text,
@@ -249,8 +249,8 @@ h3 {
 
 .hero-text {
   max-width: 60ch;
-  margin: 1.6rem 0 0;
-  font-size: 1.08rem;
+  margin: 1.3rem 0 0;
+  font-size: 1rem;
 }
 
 .hero-actions {
@@ -320,14 +320,14 @@ h3 {
   display: block;
   margin-bottom: 0.45rem;
   font-family: "Space Grotesk", sans-serif;
-  font-size: 1.55rem;
+  font-size: 1.35rem;
   font-weight: 700;
   color: var(--text);
 }
 
 .metric-label {
   display: block;
-  font-size: 0.94rem;
+  font-size: 0.9rem;
 }
 
 .accent {
@@ -343,11 +343,12 @@ h3 {
 }
 
 .section-heading {
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  gap: 1.5rem;
-  margin-bottom: 2rem;
+  display: block;
+  margin-bottom: 1.6rem;
+}
+
+.section-heading h2 {
+  max-width: 20ch;
 }
 
 .about-grid,
@@ -364,6 +365,19 @@ h3 {
   padding: 1.5rem;
   border-radius: var(--radius-lg);
   transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.feature-card p,
+.project-summary,
+.lab-card p,
+.publication-card p,
+.achievement-list,
+.contact-copy p,
+.contact-card a,
+.evidence-card p,
+.evidence-card li,
+.evidence-note {
+  font-size: 0.96rem;
 }
 
 .feature-card:hover,
@@ -434,6 +448,7 @@ h3 {
   border: 1px solid rgba(34, 197, 94, 0.18);
   color: var(--text);
   white-space: nowrap;
+  font-size: 0.78rem;
 }
 
 .achievement-list {
@@ -540,7 +555,7 @@ h3 {
 .evidence-card h2 {
   max-width: none;
   margin-bottom: 1rem;
-  font-size: clamp(1.65rem, 3vw, 2.5rem);
+  font-size: clamp(1.4rem, 2.3vw, 2rem);
 }
 
 .evidence-card p,
@@ -667,12 +682,12 @@ h3 {
 
   h1 {
     max-width: none;
-    font-size: clamp(2.5rem, 16vw, 4rem);
+    font-size: clamp(2.1rem, 11vw, 3.2rem);
   }
 
   h2 {
     max-width: none;
-    font-size: clamp(1.8rem, 9vw, 2.6rem);
+    font-size: clamp(1.45rem, 7vw, 2.1rem);
   }
 
   .site-nav {
